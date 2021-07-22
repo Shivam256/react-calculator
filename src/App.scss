@@ -1,0 +1,22 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  // background-color: red;
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+
+  .calculator{
+    width: 25%;
+    height: 80%;
+    // background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // border-radius: 20px;
+    // overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+

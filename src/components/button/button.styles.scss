@@ -1,0 +1,37 @@
+
+.button-bdy{
+  width: 25%;
+  height: 20%;
+  // background-color: black;
+  background-color: white;
+  border: 1px solid #023e8a;
+  // border: 1px solid #820263;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  color: #023e8a;
+  // color: #820263;
+  font-size: 1.5em;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #023e8a;
+    color: white;
+  }
+}
+
+.zero-btn{
+  width: 50%;
+  
+}
+
+.operate-btn{
+  background-color: #e01e37;
+  color:white;
+  // border: 1px solid #fff;
+
+  &:hover{
+    background-color: #c71f37;
+  }
+}
+
